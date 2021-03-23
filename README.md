@@ -1,6 +1,6 @@
-Ab-inito Numerical Analysos for particles as Molecular Dynamics simulation
+# Ab-inito Numerical Analysis for particles as Molecular Dynamics simulation
 
-From scratch coding and simulations of particles and interactions in a 2 D box. 
+## From scratch coding and simulations of particles and interactions in a 2 D box. 
 
 Using cython for frequently called functions and classes as acceleration of python
 
