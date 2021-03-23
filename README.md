@@ -9,7 +9,7 @@ base_functions.py contains the Classes "Vector" (2D coordinate input), "Particle
 
 The position however will change. In a small amount of time $\Delta t$ the position will change via:
 
-$$\vec{r}(t+\Delta t)=\vec{r}(t)+\vec{v}(t)\times \Delta t$$
+<img src="https://render.githubusercontent.com/render/math?math=\vec{r}(t+\Delta t)=\vec{r}(t)+\vec{v}(t)\times \Delta t">
 
 where $\vec{r}(t)$ is the position at time $t$, $\vec{v}(t)$ is velocity and $\Delta t$ is the time step.
 
