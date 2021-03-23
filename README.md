@@ -5,7 +5,7 @@
 Using cython for frequently called functions and classes as acceleration of python
 
 
-``base_functions.py'' contains the Classes "Vector" (2D coordinate input), "Particle" (position, momentum, radius, mass) and "Simulation" (particles, box_dims, timesteps)
+**base_functions.py** contains the Classes "Vector" (2D coordinate input), "Particle" (position, momentum, radius, mass) and "Simulation" (particles, box_dims, timesteps)
 
 The position however will change. In a small amount of time <img src="https://render.githubusercontent.com/render/math?math=\Delta t"> the position will change via:
 
