@@ -7,11 +7,11 @@ Using cython for frequently called functions and classes as acceleration of pyth
 
 base_functions.py contains the Classes "Vector" (2D coordinate input), "Particle" (position, momentum, radius, mass) and "Simulation" (particles, box_dims, timesteps)
 
-The position however will change. In a small amount of time $\Delta t$ the position will change via:
+The position however will change. In a small amount of time <img src="https://render.githubusercontent.com/render/math?math=\Delta t"> the position will change via:
 
 <img src="https://render.githubusercontent.com/render/math?math=\vec{r}(t+\Delta t)=\vec{r}(t)+\vec{v}(t)\times \Delta t">
 
-where $\vec{r}(t)$ is the position at time $t$, $\vec{v}(t)$ is velocity and $\Delta t$ is the time step.
+where <img src="https://render.githubusercontent.com/render/math?math=\vec{r}(t)"> is the position at time <img src="https://render.githubusercontent.com/render/math?math=t">, <img src="https://render.githubusercontent.com/render/math?math=\vec{v}(t)"> is velocity and <img src="https://render.githubusercontent.com/render/math?math=\Delta t"> is the time step.
 
 
 See the python notebook for details.
